@@ -1,0 +1,131 @@
+html,
+body {
+  height: 50%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -82px 0;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px 0;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 150px;
+  background-color: #f5f5f5;
+}
+
+
+#wrap > .center-container {
+  padding: 50px 0 0 0;
+  margin:0;
+}
+
+#footer > .container {
+  margin-top
+  padding-top:5px
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.center-container {
+  height:100%;
+  display: table;
+  width:100%;
+  margin:0;
+}
+
+.center-row {
+  height:50%;
+  width:100%;
+  display: table-row;
+}
+  
+.center-row > div {
+  height:100%;
+  width:50%;
+  display: table-cell;
+  border:1px solid #eee
+}
+
+.navbar{
+  background-color:#4EE1B2;
+
+}
+
+#footer{  
+  margin-top: 12%;
+  background-color:#2f2f2f
+
+}
+ul{
+}
+li:hover{
+  background-color:#1FC7B6;
+      color: #ffffff;
+}
+.bg-4 { 
+      color: #ffffff;
+}
+.sombra6 {
+color: #3DBCA1;
+text-shadow: 0px 0px 8px #67EBBD;
+font-size: 70px;
+font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
+.letras {
+    font-family: Helvetica, Arial;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #3DBCA1;
+}
+
+.letra {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}   
+
+#titulo1 .letra{ 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+#titulo1 .letra:hover {
+    opacity: 1;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+#titulo3 {
+    margin-top: 0px;
+}
+#titulo3 .letra {
+    letter-spacing: 15px;
+    padding-left: 14px; 
+
+}
+
+#titulo3 .letra:hover {
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #000;
+
+}
+.table{
+  font-size: 16px;
+}
+

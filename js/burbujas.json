@@ -1,0 +1,9 @@
+[
+    {
+        "latitud": "40.403803",
+        "longitud": "-3.714758",
+        "image": "img/GoogleMapxInfoBoxHeader.jpg",
+        "titulo": "Titulo del Infobox",
+        "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, autem, reprehenderit, eius, nihil error voluptatem modi rerum assumenda asperiores omnis aspernatur molestias reiciendis animi dignissimos laboriosam illum nisi neque."
+    }
+]
